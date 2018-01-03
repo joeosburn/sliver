@@ -1,0 +1,28 @@
+PATH
+  remote: ../chase
+  specs:
+    chase (0.0.3)
+      eventmachine (~> 1.2, >= 1.2.0)
+      http-parser-lite (~> 0.6.0)
+
+PATH
+  remote: .
+  specs:
+    sliver (0.0.1)
+      chase (~> 0.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    eventmachine (1.2.5)
+    http-parser-lite (0.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chase!
+  sliver!
+
+BUNDLED WITH
+   1.16.1
