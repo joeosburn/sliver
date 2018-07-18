@@ -16,5 +16,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.test_files = Dir['spec/**/*']
 
-  spec.add_dependency 'chase', '~> 0.0.3'
+  spec.add_dependency 'fcore', '~> 0.0.1'
 end
